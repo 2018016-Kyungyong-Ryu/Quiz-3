@@ -1,10 +1,12 @@
-old = input( "나이를 입력하세요 : ")
-olds = int(old)
-if olds > 19:
-    print( '성인입니다.')
-
-else :
-    print('미성년자 입니다.')
-
-
-
+score = [90, 45, 64, 9, 17, 29]
+results = []
+for i in score:
+    if i>=71:
+        results.append('A')
+    elif 71> i >=41:
+        results.append('B')
+    elif 41> i >=11:
+        results.append('C')
+    else:
+        results.append('D')
+print(results)
